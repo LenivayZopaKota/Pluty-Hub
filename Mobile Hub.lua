@@ -18,10 +18,10 @@ getgenv().r3thexecuted = false
         Title = "Pluty Hub Mobile " .. Fluent.Version,
         SubTitle = "by Pluty",
         TabWidth = 160,
-        Size = UDim2.fromOffset(580, 460),
+        Size = UDim2.fromOffset(380, 260),
         Acrylic = false, -- The blur may be detectable, setting this to false disables blur entirely
         Theme = "Dark",
-        MinimizeKey = Enum.KeyCode.LeftControl -- Used when theres no MinimizeKeybind
+        MinimizeKey = Enum.KeyCode.G -- Used when theres no MinimizeKeybind
     })
 
     --Fluent provides Lucide Icons https://lucide.dev/icons/ for the tabs, icons are optional
