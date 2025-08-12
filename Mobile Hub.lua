@@ -2925,7 +2925,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/LenivayZopaKotaWork/P
 		ScreenGui:GetPropertyChangedSignal("AbsoluteSize"):Connect(adjustButtonPosition)
 		adjustButtonPosition()
 		
-		-- === При клике эмулируем G ===
+		-- === При клике эмулируем LeftControl ===
 		local function pressKey(keyCode)
 		    VirtualInputManager:SendKeyEvent(true, keyCode, false, game)
 		    task.wait(0.05)
@@ -2933,7 +2933,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/LenivayZopaKotaWork/P
 		end
 		
 		ImageButton.MouseButton1Click:Connect(function()
-		    pressKey(Enum.KeyCode.G)
+		    pressKey(Enum.KeyCode.LeftControl)
 		end)
 		
 		-- === Перетаскивание ===
